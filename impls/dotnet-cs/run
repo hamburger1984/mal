@@ -1,0 +1,2 @@
+#!/bin/sh
+exec dotnet run -c Release --project $(dirname $0)/${STEP:-stepA_mal}.csproj "${@}"
