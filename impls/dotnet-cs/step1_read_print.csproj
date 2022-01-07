@@ -9,6 +9,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="step1_read_print.cs" />
+    <Compile Remove="step0_repl.cs" />
   </ItemGroup>
 </Project>
